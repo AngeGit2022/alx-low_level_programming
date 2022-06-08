@@ -1,4 +1,4 @@
-#include <stdio>
+#include <main.h>
 
 /**
  * main - Entry point
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	printf_alphabet();
+	printf("print_alphabet\n");
 	return (0);
 }

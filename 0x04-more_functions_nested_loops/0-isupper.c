@@ -6,7 +6,7 @@
  *
  * @c: char
  *
- * Return: 1 char isupper 0 otherwise
+ * Return: 1 char isupper 0 otherwise.
  */
 int _isupper(int c)
 {

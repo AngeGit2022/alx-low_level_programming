@@ -1,5 +1,3 @@
-#include <ctype.h>
-#include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -13,3 +11,7 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
+#include <ctype.h>
+
+int _isupper(int c)

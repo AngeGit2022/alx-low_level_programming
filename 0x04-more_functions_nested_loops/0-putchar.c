@@ -1,20 +1,22 @@
 #include "main.h"
+#include <ctype.h>
+
 /**
- * main - Entry
+ * _isupper - function that verify char upper case.
  *
- * Return: 0
+ * @c: char
+ *
+ * Return: 1 char isupper 0 otherwise
  */
-
-int main(void)
+int _isupper(int c)
 {
-	char word[9] = "_putchar";
-	int i = 0;
-
-	while (i < 8)
+	if (isupper(c))
 	{
-		_putchar(word[i]);
-		i++;
+		return (1);
 	}
-	_putchar('\n');
+	else
+	{
+		return (0);
+	}
 	return (0);
 }

@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - modify a integer
  *
- * @int: param int 
+ *@int:param int
  * return: always 0
  */
 void reset_to_98(int *n)

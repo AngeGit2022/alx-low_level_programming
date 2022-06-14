@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- *_strlen - return the length of n
+ * _strlen - return the length of n
  * @n : point integer
  * return: always 0.
  */

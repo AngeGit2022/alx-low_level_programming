@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
- * _strlen - return the length of n
- * @n : point integer
- * return: always 0.
+ *_strlen - calculate len of string
+ *@n : param string
+ * Return: Always 0.
  */
 int _strlen(char *n)
 {
-	return (strlen(n));
+return (strlen(n));
 }

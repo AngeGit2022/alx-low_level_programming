@@ -2,8 +2,7 @@
 #include <string.h>
 
 /**
- *_strlen - calculate  len of string
- *
+ *_strlen - return the length of n
  * @n : point integer
  * return: always 0.
  */

@@ -13,6 +13,9 @@ char *_strcat(char *dest, char *src)
 {
 	char *src = NULL;
 	char *dest = "";
+	
+	strcat(dest, src);
+	strcat('\n');
 
 	return (dest);
 }

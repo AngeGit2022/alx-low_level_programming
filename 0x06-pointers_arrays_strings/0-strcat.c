@@ -1,22 +1,18 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 #include <string.h>
-/**
- * _strcat - appends the src string to the dest string
- * main - check the code
- *
- * @dest: A string to an char will be changed
- * @src: A string to an char will be also changed
- * return: always 0
- */
-int main(void)
-{
-	char src[] = "debut\n";
-	char dest[50] = "fin\n";
 
-	_strcat(dest, src);
-	/* affiche : "debutfin"*/
-	_putchar (dest);
-	_putchar ('\n');
-	return (0);
+/**
+ * _strcat - A function to appends the src string to the dest string
+ *
+ * @src : A string in to char will be changed
+ * @dest : A string in to char will be changes also
+ * return : return a resultat of dest.
+ */
+char *_strcat(char *dest, char *src)
+{
+	char *src = NULL;
+	char *dest = "";
+
+	return (dest);
 }

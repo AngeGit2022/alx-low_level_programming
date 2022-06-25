@@ -44,7 +44,7 @@ char error[] = "Error";
 	}
 	else
 	{
-		printf("%s\n", error);
+		printf("%s\n", Error);
 		return (1);
 	}
 }

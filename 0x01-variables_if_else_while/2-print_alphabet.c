@@ -1,17 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Program entry point
+ * main - print the letters of the alphabet
  *
- *Return:  0 on success. Error code otherwise
+ * Description: print the letters of the alphabet
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char foo *c;
-for (c = 'a'; c <= 'z'; ++c)
-{
-	putchar * ("%c", c);
-}
-	putchar("\n");
-return (0);
+	int i = 97;
+
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
+	}
+		putchar(10);
+
+		return (0);
 }
